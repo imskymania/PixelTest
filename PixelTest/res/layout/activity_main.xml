@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+       
+    <TextView
+        android:id= "@+id/txt_width"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "30sp"
+        android:textColor= "#ff0000" />
+   
+    <TextView
+        android:id= "@+id/txt_height"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "30sp"
+        android:textColor= "#ff0000"
+        android:layout_below= "@+id/txt_width" />
+   
+    <TextView
+        android:id= "@+id/txt_DPI"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "30sp"
+        android:textColor= "#ff0000"
+        android:layout_below= "@+id/txt_height" />
+   
+    <TextView
+        android:id= "@+id/txt_Resolution"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "30sp"
+        android:textColor= "#ff0000"
+        android:layout_below= "@+id/txt_DPI" />
+   
+    <TextView
+        android:id= "@+id/txt_DP"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "30sp"
+        android:textColor= "#ff0000"
+        android:layout_below= "@+id/txt_Resolution" />
+   
+    <TextView
+        android:id= "@+id/txt_folder"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "30sp"
+        android:textColor= "#ff0000"
+        android:layout_below= "@+id/txt_DP" />
+
+</RelativeLayout>
